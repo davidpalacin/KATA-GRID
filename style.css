@@ -1,0 +1,12 @@
+.containerGrid {
+    background: red;
+    padding: 5px;
+    width: 300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.containerGrid>div {
+    background: white;
+    text-align: center;
+}
